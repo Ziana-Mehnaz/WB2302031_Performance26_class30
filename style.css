@@ -1,0 +1,41 @@
+.box{
+    margin:30px;
+    height: 300px;
+    width:300px;
+    padding:20px;
+    border:20px solid black;
+border-image-source:url(images/border3.png);
+/* 28 /round /20px/round
+borderimage:linear-gradient(red,green)30 strecth */
+border-image-slice: 28;
+border-image-repeat: repeat;
+border-image-width: 30px;
+background-color:yellow;
+border-image-outset:30px;
+}
+.box2{
+    margin:30px;
+    height: 100px;
+    width: 100px;
+    padding:20px;
+    border:20px solid black;
+    border-image:linear-gradient(red,blue,yellow,salmon,green ,transparent) 30 stretch;
+}
+.box3{
+    height:200px;
+    width:200px;
+    background-color:blue;
+    background-image: linear-gradient(to right,red,green, yellow ,orange);
+}
+.box4{
+    height:200px;
+    width:200px;
+    background-color:blue;
+    background-image: linear-gradient(180deg,red,green, yellow ,orange);  
+}
+.box5{
+    height:200px;
+    width:200px;
+    background-color:blue;
+    background-image:repeating-linear-gradient(red ,green 30%, yellow 20% ,orange 30%);  
+}
